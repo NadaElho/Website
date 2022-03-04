@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="images/27.png" />
+  </head>
+  <body>
+    <div class="header">
+      <h3>Nada Elhosary <span>Inc.</span></h3>
+      <i class="fa-solid fa-bars menu"></i>
+      <ul class="bar">
+        <li class="hOme">Home</li>
+        <li class="about">About Us</li>
+        <li class="fAq">FAQ</li>
+        <li class="service">
+          Services<i class="fa-solid fa-caret-down"></i>
+          <ul class="srv">
+            <li>Programming</li>
+            <li>Web design</li>
+            <li>Desktop</li>
+            <li>Call us in the phone</li>
+            <li>Send the problems in the messages</li>
+          </ul>
+        </li>
+        <li>Testimonial</li>
+        <li>Submit</li>
+      </ul>
+    </div>
+    <div class="optionColor">
+      <div class="color hide">
+        <h4>Option Color</h4>
+        <div class="co" id="#f9a602" style="background-color: #f9a602"></div>
+        <div class="co" id="#8e3d79" style="background-color: #8e3d79"></div>
+        <div class="co" id="#b94a3e" style="background-color: #b94a3e"></div>
+        <div class="co" id="#109c8f" style="background-color: #109c8f"></div>
+        <div class="co" id="#7d4b32" style="background-color: #7d4b32"></div>
+      </div>
+      <div class="chooseColor">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+    <div class="top">
+      <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <div class="home">
+      <div class="show">
+        <div class="imgBox first">
+          <h1>Programming</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+            obcaecati quibusdam voluptatum numquam maiores necessitatibus
+            accusamus voluptate. Sequi tenetur fugit in expedita, error deserunt
+            illo, sint sunt, possimus ea quod!
+          </p>
+        </div>
+        <div class="imgBox second">
+          <h1>Desktop</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+            obcaecati quibusdam voluptatum numquam maiores necessitatibus
+            accusamus voluptate. Sequi tenetur fugit in expedita, error deserunt
+            illo, sint sunt, possimus ea quod!
+          </p>
+        </div>
+        <div id="2" class="imgBox third">
+          <h1>Web Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
+            obcaecati quibusdam voluptatum numquam maiores necessitatibus
+            accusamus voluptate. Sequi tenetur fugit in expedita, error deserunt
+            illo, sint sunt, possimus ea quod!
+          </p>
+        </div>
+        <ul class="bullets">
+          <li class="bull" onclick="imgNum(0)"></li>
+          <li class="bull" onclick="imgNum(1)"></li>
+          <li class="bull" onclick="imgNum(2)"></li>
+        </ul>
+        <div class="arrows">
+          <i class="fa-solid fa-angle-left left"></i>
+          <i class="fa-solid fa-angle-right right"></i>
+        </div>
+      </div>
+      <div class="sen">
+        <h2>Meet our new Templete <span>Nada Elhosary</span> Inc.</h2>
+        <p>
+          Hello, Let me to introduce our new Templete Nada Elhosary Inc Created
+          with All Love <span>CSS</span>
+        </p>
+      </div>
+      <div class="features_box">
+        <div class="container">
+          <h1>Our Features</h1>
+          <div class="features">
+            <div class="feature">
+              <i class="fa-solid fa-check"></i>
+              <h4>100% Responsive</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                itaque quaerat, qui, aut sint quisquam expedita aperiam rerum
+                sit veritatis doloribus voluptate! Hic dolorem, officia ducimus
+                quaerat repellat modi. Error?
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <h4>Ratiny Ready</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                culpa harum eligendi voluptate odit corporis repellat neque
+                temporibus facere. Praesentium aliquid maiores nam, doloremque a
+                itaque quod officia explicabo necessitatibus.
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fa-solid fa-eye"></i>
+              <h4>Awesome Display</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis ad mollitia sapiente dicta! Sed vel voluptate impedit
+                dicta quibusdam ab obcaecati libero expedita, vitae possimus
+                exercitationem inventore repellendus delectus vero.
+              </p>
+            </div>
+            <div class="feature">
+              <i class="fa-solid fa-pencil"></i>
+              <h4>Well Documented</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+                sed ipsum quae tempore! Animi, maiores quo similique molestias
+                dicta beatae, molestiae laudantium facere cum, quod dignissimos
+                quaerat aperiam. Sint, ab.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews">
+        <div class="container">
+          <h1>What our Clients Say</h1>
+          <p id="review"></p>
+          <h3 id="name"></h3>
+          <div class="pers">
+            <img src="images/22.png" alt="" />
+            <img src="images/23.png" alt="" />
+            <img src="images/24.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="price_box">
+        <div class="container">
+          <h1>Our Amazing Price</h1>
+          <div class="amazingPrice">
+            <div class="price">
+              <h3>Hosting</h3>
+              <div class="pri">40$</div>
+              <span>Spaces : 30GB</span>
+              <span>Emails : 20</span>
+              <span>Ips : 2Ip</span>
+              <span>Data Bases : 20GB</span>
+              <span>Ftp accounts : 5</span>
+              <div>Order now</div>
+            </div>
+            <div class="price">
+              <h3>VPS</h3>
+              <div class="pri">50$</div>
+              <span>Spaces : 40GB</span>
+              <span>Emails : 50</span>
+              <span>Ips : 4Ip</span>
+              <span>Data Bases : 40GB</span>
+              <span>Ftp accounts : 10</span>
+              <div>Order now</div>
+            </div>
+            <div class="price">
+              <h3>Dedicated</h3>
+              <div class="pri">80$</div>
+              <span>Spaces : 40GB</span>
+              <span>Emails : 30</span>
+              <span>Ips : 4Ip</span>
+              <span>Data Bases : 30GB</span>
+              <span>Ftp accounts : 15</span>
+              <div>Order now</div>
+            </div>
+            <div class="price">
+              <h3>Cloud</h3>
+              <div class="pri">100$</div>
+              <span>Spaces : 50GB</span>
+              <span>Emails : 40</span>
+              <span>Ips : 6Ip</span>
+              <span>Data Bases : 40GB</span>
+              <span>Ftp accounts : 20</span>
+              <div>Order now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="teamMembers">
+        <div class="container">
+          <h2>Meet Our Awesome Team</h2>
+          <div class="team">
+            <div class="person">
+              <img src="images/7.jpg" />
+              <h3>Chris Coyier</h3>
+              <p>
+                This is Chris Coyier is found the Amazing css-tricks Web site
+                has help the programming
+              </p>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="person">
+              <img src="images/8.jpg" />
+              <h3>Leah Coulver</h3>
+              <p>
+                This is Amazing Hacker woman with A much knowledge in Havking
+                Systems
+              </p>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="person">
+              <img src="images/9.jpg" />
+              <h3>Steve Jobs</h3>
+              <p>
+                This is Steve Jobs is Change a world with its thinking about
+                apple Programmings
+              </p>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="person">
+              <img src="images/10.jpg" />
+              <h2>Maressa Mayer</h2>
+              <p>
+                This is Amazing Hacker woman with A much knowledge in Havking
+                Systems
+              </p>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="signUp">
+        <div class="container">
+          <h2>Keep In Touch</h2>
+          <p>
+            Sign Up For the New Sletter Don't Worry About Spam We Hate It Too
+          </p>
+          <div class="subscribe">
+            <input type="text" />
+            <div>
+              <span><i class="fa-solid fa-pen-to-square"></i></span>Subscribe
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_box">
+        <div class="container">
+          <h2>Our Main Statistics</h2>
+          <div class="statistics">
+            <div class="statistic">
+              <i class="fa-solid fa-users"></i>
+              <span class="num">9,698</span>
+              <span>Satisfied Users</span>
+            </div>
+            <div class="statistic">
+              <i class="fa-solid fa-comments"></i>
+              <span class="num">95,698</span>
+              <span>Posted Comments</span>
+            </div>
+            <div class="statistic">
+              <i class="fa-solid fa-suitcase"></i>
+              <span class="num">5,528</span>
+              <span>Projects Done</span>
+            </div>
+            <div class="statistic">
+              <i class="fa-solid fa-life-ring"></i>
+              <span class="num">225,379</span>
+              <span>Tickets Archived</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ourSkills">
+        <div class="container">
+          <h1>Our Skills</h1>
+          <div class="skills">
+            <div class="progress">
+              <div class="prog">
+                <div>Html / CSS</div>
+              </div>
+              <div class="prog">
+                <div>Javascript</div>
+              </div>
+              <div class="prog">
+                <div>PHP / MYsql</div>
+              </div>
+              <div class="prog">
+                <div>Angular</div>
+              </div>
+            </div>
+            <div class="about">
+              <h4>About The Team</h4>
+              <p>
+                We are speciallised Designing and Programming team passionate
+                About Web Design and Creatin Digital ideaes We will Transfer
+                Your Ideal To a Digital Dream and make Your Wish Come True
+              </p>
+              <div class="btn">Take with a professional</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contactBox">
+        <div class="container">
+          <i class="fa-solid fa-headphones"></i>
+          <h2>Tell Us What You Fell</h2>
+          <p>Fell Free To Contact Us Any Times</p>
+          <div class="contactUs">
+            <div class="txt">
+              <input type="text" placeholder="Enter Your Name" />
+              <input type="text" placeholder="Enter Your Email" />
+              <input type="text" placeholder="Enter Your Phone" />
+            </div>
+            <div class="contact">
+              <textarea
+                name="msg"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <div class="button">Contact Us</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="imgs">
+          <img src="images/12.png" alt="" />
+          <img src="images/13.png" alt="" />
+          <img src="images/14.png" alt="" />
+          <img src="images/15.png" alt="" />
+          <img src="images/16.jpg" alt="" />
+          <img src="images/17.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="aboutUs">
+      <div class="container">
+        <div class="address">
+          <h2><a class="h" href="#">Home</a> / <a href="#">About</a></h2>
+        </div>
+        <h1>About Us</h1>
+        <h4>
+          We Create Your Digital Dream , Just Think And Tell Us What You Need Or
+          LeaveThe InspiratrionTo Us Watch , Just Believe In Our Professionals
+        </h4>
+        <img src="images/5.jpg" alt="" />
+        <div class="we">
+          <div class="one">
+            <i class="fa-solid fa-code"></i>
+            <h2>We Love Code</h2>
+            <p>
+              We Create Your Digital Dream , Just Think And Tell Us What You
+              Need , Or LeaveThe InspiratrionTo Us Watch , Just Believe In Our
+              Professionals
+            </p>
+          </div>
+          <div class="two">
+            <i class="fa-solid fa-child"></i>
+            <h2>We Are Happy</h2>
+            <p>
+              We Create Your Digital Dream , Just Think And Tell Us What You
+              Need , Or LeaveThe InspiratrionTo Us Watch , Just Believe In Our
+              Professionals
+            </p>
+          </div>
+          <div class="three">
+            <i class="fa-solid fa-users"></i>
+            <h2>We Love Social</h2>
+            <p>
+              We Create Your Digital Dream , Just Think And Tell Us What You
+              Need , Or LeaveThe InspiratrionTo Us Watch , Just Believe In Our
+              Professionals
+            </p>
+          </div>
+        </div>
+        <div class="cont">
+          <div>
+            <img src="images/25.jpg" alt="" />
+          </div>
+          <div class="help">
+            <h2>We Are Blessed To Help You</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              asperiores quasi neque officia atque hic voluptatem amet, iure eum
+              corrupti accusantium assumenda voluptate totam, cum cumque.
+              Maiores dolore laudantium ducimus?
+            </p>
+            <div class="button">Contact Us</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="container">
+        <div class="address">
+          <h2><a class="h" href="#">Home</a> / <a href="#">About</a></h2>
+        </div>
+        <h1>Frequently Asked Question</h1>
+        <h4>
+          Here You WIll Find All Questions You Are Searching for And The Full
+          Kownledgebase
+        </h4>
+        <div class="q1">
+          <div class="ques">
+            #01 How To Use Bootstarp version 3.0 ?
+            <i class="fa-solid fa-angle-right check"></i>
+            <i class="fa-solid fa-angle-down down hide"></i>
+          </div>
+          <p class="ans hide">
+            This is New Version of this bootstrap to add new Features to ease
+            the programming of web design to help the programmer by usage some
+            classes This is New Version of this bootstrap to add new Features to
+            ease the programming of web design to help the programmer by usage
+            some classes This is New Version of this bootstrap to add new
+            Features to ease the programming of web design to help the
+            programmer by usage some classes
+          </p>
+        </div>
+        <div class="q2">
+          <div class="ques">
+            #02 How To Use Media Queries ?
+            <i class="fa-solid fa-angle-right check"></i>
+            <i class="fa-solid fa-angle-down down hide"></i>
+          </div>
+          <p class="ans hide">
+            This is New Version of this bootstrap to add new Features to ease
+            the programming of web design to help the programmer by usage some
+            classes This is New Version of this bootstrap to add new Features to
+            ease the programming of web design to help the programmer by usage
+            some classes This is New Version of this bootstrap to add new
+            Features to ease the programming of web design to help the
+            programmer by usage some classes
+          </p>
+        </div>
+        <div class="q3">
+          <div class="ques">
+            #03 How To create your own Slider ?
+            <i class="fa-solid fa-angle-right check"></i>
+            <i class="fa-solid fa-angle-down down hide"></i>
+          </div>
+          <p class="ans hide">
+            This is New Version of this bootstrap to add new Features to ease
+            the programming of web design to help the programmer by usage some
+            classes This is New Version of this bootstrap to add new Features to
+            ease the programming of web design to help the programmer by usage
+            some classes This is New Version of this bootstrap to add new
+            Features to ease the programming of web design to help the
+            programmer by usage some classes
+          </p>
+        </div>
+        <div class="q4">
+          <div class="ques">
+            #04 How To create Your Own Accordion?
+            <i class="fa-solid fa-angle-right check"></i>
+            <i class="fa-solid fa-angle-down down hide"></i>
+          </div>
+          <p class="ans hide">
+            This is New Version of this bootstrap to add new Features to ease
+            the programming of web design to help the programmer by usage some
+            classes This is New Version of this bootstrap to add new Features to
+            ease the programming of web design to help the programmer by usage
+            some classes This is New Version of this bootstrap to add new
+            Features to ease the programming of web design to help the
+            programmer by usage some classes
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="last_box">
+      <div class="container">
+        <div class="last">
+          <div class="site">
+            <h2>Site Map</h2>
+            <div class="siteMap">
+              <span>Home</span>
+              <span>About</span>
+              <span>Company</span>
+              <span>Code</span>
+              <span>Design</span>
+              <span>Host</span>
+              <span>Solution</span>
+              <span>Sitemap</span>
+              <span>Contact</span>
+            </div>
+            <span>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google-plus-g"></i>
+              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </span>
+          </div>
+          <div class="article">
+            <h2>Latest Article</h2>
+            <div class="dep">
+              <i class="fa-solid fa-calculator"></i>
+              <div class="ab">
+                <h3>Programming</h3>
+                <p>
+                  This is Some Text About Programming Describe The Media of
+                  bootstrap 3.7.2
+                </p>
+              </div>
+            </div>
+            <div class="dep">
+              <i class="fa-solid fa-users"></i>
+              <div class="ab">
+                <h3>Coding</h3>
+                <p>
+                  This is Some Text About Programming Describe The Media of
+                  bootstrap 3.7.2
+                </p>
+              </div>
+            </div>
+            <div class="dep">
+              <i class="fa-brands fa-internet-explorer"></i>
+              <h3>Web Design</h3>
+              <p>
+                This is Some Text About Programming Describe The Media of
+                bootstrap 3.7.2
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <h2>Our Awesome Work</h2>
+            <div class="img">
+              <img src="images/18.jpg" alt="" />
+              <img src="images/19.jpg" alt="" />
+              <img src="images/20.jpg" alt="" />
+              <img src="images/21.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>CopyRight &copy; 2022 The Templete Name is .Inc</h2>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
